@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="show()">Show</button>
+
+    <h1>Registration Form</h1>
+
+    name : <input type="text" id="name" /> <br /><br />
+    email :<input type="text" id="email" /> <br /><br />
+    password : <input type="text" id="pass" /><br /><br />
+    <input
+      type="file"
+      id="thumbnail"
+      class="form-control"
+      accept="image/png, image/jpeg"
+      id="customFile thumbnail"
+    />
+    <br />
+    <img
+      src=""
+      id="thumb"
+      style="width: 100px; margin-top: 20px; margin-bottom: 20px"
+      alt=""
+    />
+    <button onclick="submit()">Submit</button>
+    
+    <button onclick="update()">Update</button> <br />
+    <br /><br />
+    <script src="registration.js"></script>
+  </body>
+</html>
